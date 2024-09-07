@@ -27,14 +27,6 @@ El dataset contiene información sobre diversos factores socioeconómicos que se
 - **Fase 2:** _En desarrollo_
 - **Fase 3:** _En desarrollo_
 
-## **Dependencias**
-
-Las dependencias están listadas en el archivo `requirements.txt`. Puedes instalar todas las librerías ejecutando:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## **Contacto**
 
 Para cualquier pregunta puedes contactar a los integrantes del proyecto:

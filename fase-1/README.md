@@ -11,3 +11,30 @@ Los notebooks se encuentran enumerados en el orden en el que deben ser ejecutado
 
 > [!NOTE]
 > Para correr el modelo generado, únicamente es necesario el notebook `04_Entrenamiento_de_Modelos.ipynb`, ya que el preprocesamiento de los datos se encuentra preguardado.
+
+## **Ejecutar localmente**
+
+> [!NOTE]
+> Este repositorio está pensado para ejecutarse desde Google Colab, abriendo los notebooks puedes ver un botón al inicio "Open in Colab".
+
+### **Instalación de dependencias**
+
+En caso de querer ejecutar este proyecto localmente, debes instalar las dependencias necesarias.
+Las dependencias están listadas en el archivo `requirements.txt`. Puedes instalar todas las librerías ejecutando:
+
+```bash
+pip install -r requirements.txt
+```
+
+> [!TIP]
+> Se recomienda usar un entorno virtual de python para instalar los requerimientos:
+>
+> ```bash
+> python -m venv venv
+>
+> # o source venv/bin/activate en linux
+> ./venv/Scripts/activate
+> ```
+
+> [!IMPORTANT]  
+> Los notebooks descargan los datos procesados directamente desde este repositorio, en caso de querer utilizar los resultados locales, se deben actualizar las URL de descarga en los notebooks `03_Balance_de_clases.ipynb` y `04_Entrenamiento_de_modelos.ipynb`.
