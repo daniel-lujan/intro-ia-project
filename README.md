@@ -17,7 +17,7 @@ _Universidad de Antioquia - Facultad de Ingeniería - Ingeniería de Sistemas_
 
 ## **Descripción del Proyecto**
 
-Este proyecto tiene como objetivo desarrollar un modelo predictivo para predecir el ingreso de los individuos utilizando el dataset del [Census Income Challenge de ucimlrepo](https://archive.ics.uci.edu/dataset/20/census+income). El modelo predictivo ha sido implementado como parte del curso de Introducción a la Inteligencia Artificial de la Universidad de Antioquia.
+Este proyecto tiene como objetivo desarrollar un modelo predictivo para predecir el ingreso de los individuos utilizando el dataset del dataset de Kaggle [Adult Census Income](https://www.kaggle.com/datasets/uciml/adult-census-income) (por facilidad, en el código se descarga el dataset desde la fuente original (UCIML Repo) [Census Income](https://archive.ics.uci.edu/dataset/20/census+income)). El modelo predictivo ha sido implementado como parte del curso de Introducción a la Inteligencia Artificial de la Universidad de Antioquia.
 
 El dataset contiene información sobre diversos factores socioeconómicos que se utilizan para predecir si un individuo gana más de 50,000 dólares al año.
 
